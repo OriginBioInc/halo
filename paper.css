@@ -529,12 +529,27 @@ input[type=range] { width: 100%; accent-color: var(--slate); }
   .trace-img { padding: 14px 8px 0 16px; }
   .trace-img img { width: 100%; height: auto; }
   .trace-body .margin-chart { grid-column: 1 / -1; }
-  .fig.wide { width: calc(100% + 36px); margin-inline: -18px; }
-  .fig.wide figcaption { padding-inline: 18px; }
-  .booktabs, .params { display: block; overflow-x: auto; white-space: nowrap; }
-  .panel-head { grid-template-columns: 1fr; }
-  .panel-agree { align-items: flex-start; }
-  .gene { grid-template-columns: 74px minmax(0,1fr) 52px; gap: 7px; }
+  /* Nothing may widen the page: on a phone that zooms the whole post out. */
+  html, body { overflow-x: clip; }
+  /* Only plain images bleed to the screen edge; framed panels and tables stay in the column. */
+  .fig.wide { width: 100%; margin-inline: 0; }
+  .fig.wide:has(> :is(img, svg):first-child) { width: calc(100% + 36px); margin-inline: -18px; }
+  .fig.wide:has(> :is(img, svg):first-child) figcaption { padding-inline: 18px; }
+  /* Tables scroll sideways inside their own box; the caption wraps above them like ordinary text. */
+  .booktabs, .params { display: block; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+  .booktabs caption, .params caption { display: block; white-space: normal; }
+  .booktabs { font-size: .68rem; }
+  .booktabs thead th, .booktabs tbody td, .booktabs tbody th { padding: 6px 8px; }
+  .ci { display: block; }
+  .swap-head { gap: 12px; padding: 10px 12px; }
+  .swap-head strong { font-size: 1rem; }
+  .sb-exchange { grid-template-columns: 1fr; gap: 14px; }
+  .panel-head { grid-template-columns: 1fr; padding: 14px 14px 10px; }
+  .panel-agree { align-items: baseline; flex-direction: row; gap: 10px; }
+  .genes, .key { padding-inline: 14px; }
+  .gene { grid-template-columns: 64px minmax(0,1fr) 46px; gap: 7px; }
+  .gene.agg { grid-template-columns: 96px minmax(0,1fr) 46px; }
+  #fig-trace .slider input[type=range], .slider input[type=range] { width: min(200px, 55vw); }
 }
 @media print {
   .masthead, .toc, .progress, .skip, .fig-bar, .slider, .tabs, .expand-btn { display: none; }
