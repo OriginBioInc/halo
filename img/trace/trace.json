@@ -1,0 +1,99 @@
+{
+ "tile": "TCGA-5M-AAT6-01Z-00-DX1.8834C952-14E3-4491-8156-52FC917BB014__row_000004",
+ "seed": 1629,
+ "steps": [
+  {
+   "step": 0,
+   "margin": -19.35723114013672,
+   "token_norm_prob": 3.9218508440796995e-09,
+   "token_tum_prob": 0.9999681711196899,
+   "render_norm_prob": 8.847515609033962e-09,
+   "render_tum_prob": 0.999782383441925,
+   "render_top": "TUM"
+  },
+  {
+   "step": 1,
+   "margin": -13.417765617370605,
+   "token_norm_prob": 1.4912801589161973e-06,
+   "token_tum_prob": 0.9998500347137451,
+   "render_norm_prob": 2.526480713527235e-08,
+   "render_tum_prob": 0.9999343156814575,
+   "render_top": "TUM",
+   "out": 38996,
+   "in_": 31425,
+   "amount": 5.838068962097168
+  },
+  {
+   "step": 2,
+   "margin": -7.172764778137207,
+   "token_norm_prob": 0.0007671437342651188,
+   "token_tum_prob": 0.9981456995010376,
+   "render_norm_prob": 4.343222883562703e-07,
+   "render_tum_prob": 0.9999712705612183,
+   "render_top": "TUM",
+   "out": 43076,
+   "in_": 31425,
+   "amount": 5.464266300201416
+  },
+  {
+   "step": 3,
+   "margin": -3.1869421005249023,
+   "token_norm_prob": 0.03969735652208328,
+   "token_tum_prob": 0.9545164108276367,
+   "render_norm_prob": 8.499276191287208e-06,
+   "render_tum_prob": 0.9999408721923828,
+   "render_top": "TUM",
+   "out": 42793,
+   "in_": 31425,
+   "amount": 3.3057873249053955
+  },
+  {
+   "step": 4,
+   "margin": 6.147175312042236,
+   "token_norm_prob": 0.9978681802749634,
+   "token_tum_prob": 0.002107633976265788,
+   "render_norm_prob": 0.5883352160453796,
+   "render_tum_prob": 0.41100436449050903,
+   "render_top": "NORM",
+   "out": 38611,
+   "in_": 31425,
+   "amount": 9.532416343688965
+  },
+  {
+   "step": 5,
+   "margin": 9.727594375610352,
+   "token_norm_prob": 0.9999402761459351,
+   "token_tum_prob": 5.7361416111234576e-05,
+   "render_norm_prob": 0.5483688712120056,
+   "render_tum_prob": 0.451531320810318,
+   "render_top": "NORM",
+   "out": 46852,
+   "in_": 38309,
+   "amount": 3.4507014751434326
+  },
+  {
+   "step": 6,
+   "margin": 13.074117660522461,
+   "token_norm_prob": 0.9999978542327881,
+   "token_tum_prob": 1.7703429193716147e-06,
+   "render_norm_prob": 0.9991028308868408,
+   "render_tum_prob": 0.0008934090146794915,
+   "render_top": "NORM",
+   "out": 32901,
+   "in_": 38309,
+   "amount": 3.7783405780792236
+  },
+  {
+   "step": 7,
+   "margin": 16.071550369262695,
+   "token_norm_prob": 0.9999998807907104,
+   "token_tum_prob": 6.857416678940353e-08,
+   "render_norm_prob": 0.9999947547912598,
+   "render_tum_prob": 4.9585983106226195e-06,
+   "render_top": "NORM",
+   "out": 38753,
+   "in_": 40317,
+   "amount": 4.262509822845459
+  }
+ ]
+}

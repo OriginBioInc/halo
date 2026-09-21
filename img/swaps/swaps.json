@@ -1,0 +1,2243 @@
+{
+ "seed": 1629,
+ "num_steps": 30,
+ "guidance_weight": 0.5,
+ "stop_margin": 14.346450805664062,
+ "radius": 39.19181823730469,
+ "classes": [
+  "ADI",
+  "BACK",
+  "DEB",
+  "LYM",
+  "MUC",
+  "MUS",
+  "NORM",
+  "STR",
+  "TUM"
+ ],
+ "tiles": [
+  {
+   "key": "5M-AAT6_r4",
+   "slide": "TCGA-5M-AAT6-01Z-00-DX1.8834C952-14E3-4491-8156-52FC917BB014.svs",
+   "row": 4,
+   "manifest_index": 123766,
+   "num_exchanges": 7,
+   "steps": [
+    {
+     "step": 0,
+     "margin": -19.35723114013672,
+     "token_norm": 3.9197716183991815e-09,
+     "token_tum": 0.9999681711196899,
+     "token_top": "TUM",
+     "render_norm": 1.2546379934974539e-08,
+     "render_tum": 0.9997431635856628,
+     "render_top": "TUM"
+    },
+    {
+     "step": 1,
+     "margin": -13.417765617370605,
+     "out": 38996,
+     "in_": 31425,
+     "amount": 5.838068962097168,
+     "token_norm": 1.488462430643267e-06,
+     "token_tum": 0.9998499155044556,
+     "token_top": "TUM",
+     "render_norm": 1.6044138462234514e-08,
+     "render_tum": 0.9999499320983887,
+     "render_top": "TUM"
+    },
+    {
+     "step": 2,
+     "margin": -7.172764778137207,
+     "out": 43076,
+     "in_": 31425,
+     "amount": 5.464266300201416,
+     "token_norm": 0.0007666107267141342,
+     "token_tum": 0.9981459379196167,
+     "token_top": "TUM",
+     "render_norm": 3.401982553441485e-07,
+     "render_tum": 0.9999756813049316,
+     "render_top": "TUM"
+    },
+    {
+     "step": 3,
+     "margin": -3.1869421005249023,
+     "out": 42793,
+     "in_": 31425,
+     "amount": 3.3057873249053955,
+     "token_norm": 0.03966008499264717,
+     "token_tum": 0.9545546174049377,
+     "token_top": "TUM",
+     "render_norm": 7.453866146533983e-06,
+     "render_tum": 0.9999535083770752,
+     "render_top": "TUM"
+    },
+    {
+     "step": 4,
+     "margin": 6.147175312042236,
+     "out": 38611,
+     "in_": 31425,
+     "amount": 9.532416343688965,
+     "token_norm": 0.9978651404380798,
+     "token_tum": 0.0021107334177941084,
+     "token_top": "NORM",
+     "render_norm": 0.614868700504303,
+     "render_tum": 0.38454827666282654,
+     "render_top": "NORM"
+    },
+    {
+     "step": 5,
+     "margin": 9.727594375610352,
+     "out": 46852,
+     "in_": 38309,
+     "amount": 3.4507014751434326,
+     "token_norm": 0.9999403953552246,
+     "token_tum": 5.723399226553738e-05,
+     "token_top": "NORM",
+     "render_norm": 0.6549381017684937,
+     "render_tum": 0.34494748711586,
+     "render_top": "NORM"
+    },
+    {
+     "step": 6,
+     "margin": 13.074117660522461,
+     "out": 32901,
+     "in_": 38309,
+     "amount": 3.7783405780792236,
+     "token_norm": 0.9999978542327881,
+     "token_tum": 1.7698263263810077e-06,
+     "token_top": "NORM",
+     "render_norm": 0.9980735778808594,
+     "render_tum": 0.0019205858698114753,
+     "render_top": "NORM"
+    },
+    {
+     "step": 7,
+     "margin": 16.071550369262695,
+     "out": 38753,
+     "in_": 40317,
+     "amount": 4.262509822845459,
+     "token_norm": 0.9999998807907104,
+     "token_tum": 6.864797086336694e-08,
+     "token_top": "NORM",
+     "render_norm": 0.9999935626983643,
+     "render_tum": 6.296089395618765e-06,
+     "render_top": "NORM"
+    }
+   ]
+  },
+  {
+   "key": "F4-6570_r91",
+   "slide": "TCGA-F4-6570-01Z-00-DX1.57a15bf3-d9a1-4da7-b71a-7b992a275bdf.svs",
+   "row": 91,
+   "manifest_index": 911892,
+   "num_exchanges": 3,
+   "steps": [
+    {
+     "step": 0,
+     "margin": -10.874351501464844,
+     "token_norm": 1.8937424101750366e-05,
+     "token_tum": 0.99860018491745,
+     "token_top": "TUM",
+     "render_norm": 3.138325337204151e-05,
+     "render_tum": 0.9979420304298401,
+     "render_top": "TUM"
+    },
+    {
+     "step": 1,
+     "margin": 0.3007993698120117,
+     "out": 25526,
+     "in_": 31425,
+     "amount": 10.64051342010498,
+     "token_norm": 0.5746378898620605,
+     "token_tum": 0.41810142993927,
+     "token_top": "NORM",
+     "render_norm": 0.0028747720643877983,
+     "render_tum": 0.9872940182685852,
+     "render_top": "TUM"
+    },
+    {
+     "step": 2,
+     "margin": 12.211746215820312,
+     "out": 13726,
+     "in_": 31425,
+     "amount": 12.4338960647583,
+     "token_norm": 0.9999949932098389,
+     "token_tum": 4.780605195264798e-06,
+     "token_top": "NORM",
+     "render_norm": 0.8292582631111145,
+     "render_tum": 0.17065124213695526,
+     "render_top": "NORM"
+    },
+    {
+     "step": 3,
+     "margin": 16.535364151000977,
+     "out": 47245,
+     "in_": 38309,
+     "amount": 5.258297443389893,
+     "token_norm": 1.0,
+     "token_tum": 5.248986667538702e-08,
+     "token_top": "NORM",
+     "render_norm": 0.9999786615371704,
+     "render_tum": 2.0180124920443632e-05,
+     "render_top": "NORM"
+    }
+   ]
+  },
+  {
+   "key": "AZ-4615_r91",
+   "slide": "TCGA-AZ-4615-01Z-00-DX1.ecabbbb1-c1ed-4f60-b44f-b07eaa177208.svs",
+   "row": 91,
+   "manifest_index": 862662,
+   "num_exchanges": 5,
+   "steps": [
+    {
+     "step": 0,
+     "margin": -10.022642135620117,
+     "token_norm": 4.438155883690342e-05,
+     "token_tum": 0.9967260360717773,
+     "token_top": "TUM",
+     "render_norm": 3.905834455508739e-05,
+     "render_tum": 0.9903059005737305,
+     "render_top": "TUM"
+    },
+    {
+     "step": 1,
+     "margin": -3.428149938583374,
+     "out": 11791,
+     "in_": 31425,
+     "amount": 5.619430065155029,
+     "token_norm": 0.031427204608917236,
+     "token_tum": 0.9435288310050964,
+     "token_top": "TUM",
+     "render_norm": 0.0002085099258692935,
+     "render_tum": 0.746605634689331,
+     "render_top": "TUM"
+    },
+    {
+     "step": 2,
+     "margin": 4.107291221618652,
+     "out": 45161,
+     "in_": 31425,
+     "amount": 6.965366363525391,
+     "token_norm": 0.9838141202926636,
+     "token_tum": 0.014896758832037449,
+     "token_top": "NORM",
+     "render_norm": 0.0032764493953436613,
+     "render_tum": 0.9832058548927307,
+     "render_top": "TUM"
+    },
+    {
+     "step": 3,
+     "margin": 7.723519325256348,
+     "out": 8275,
+     "in_": 31425,
+     "amount": 4.02068567276001,
+     "token_norm": 0.9995577931404114,
+     "token_tum": 0.0002928168687503785,
+     "token_top": "NORM",
+     "render_norm": 0.24176816642284393,
+     "render_tum": 0.6280242800712585,
+     "render_top": "TUM"
+    },
+    {
+     "step": 4,
+     "margin": 10.575202941894531,
+     "out": 14499,
+     "in_": 31425,
+     "amount": 3.577674388885498,
+     "token_norm": 0.9999744892120361,
+     "token_tum": 1.2884223906439729e-05,
+     "token_top": "NORM",
+     "render_norm": 0.9997487664222717,
+     "render_tum": 0.0001558179355924949,
+     "render_top": "NORM"
+    },
+    {
+     "step": 5,
+     "margin": 16.81792449951172,
+     "out": 44090,
+     "in_": 38309,
+     "amount": 13.555211067199707,
+     "token_norm": 1.0,
+     "token_tum": 1.1163997726271191e-08,
+     "token_top": "NORM",
+     "render_norm": 0.9996790885925293,
+     "render_tum": 0.00020643170864786953,
+     "render_top": "NORM"
+    }
+   ]
+  },
+  {
+   "key": "CM-6161_r3",
+   "slide": "TCGA-CM-6161-01Z-00-DX1.552104aa-6fd7-4d53-918b-fe67d359815c.svs",
+   "row": 3,
+   "manifest_index": 46553,
+   "num_exchanges": 9,
+   "steps": [
+    {
+     "step": 0,
+     "margin": -18.718605041503906,
+     "token_norm": 7.423587522481512e-09,
+     "token_tum": 0.9999597072601318,
+     "token_top": "TUM",
+     "render_norm": 2.383587194287884e-08,
+     "render_tum": 0.9997561573982239,
+     "render_top": "TUM"
+    },
+    {
+     "step": 1,
+     "margin": -14.675089836120605,
+     "out": 26959,
+     "in_": 31425,
+     "amount": 3.2213966846466064,
+     "token_norm": 4.233401682540716e-07,
+     "token_tum": 0.9999370574951172,
+     "token_top": "TUM",
+     "render_norm": 1.3184606295624235e-08,
+     "render_tum": 0.9998003840446472,
+     "render_top": "TUM"
+    },
+    {
+     "step": 2,
+     "margin": -8.559191703796387,
+     "out": 28285,
+     "in_": 31425,
+     "amount": 5.598923206329346,
+     "token_norm": 0.00019173751934431493,
+     "token_tum": 0.9997417330741882,
+     "token_top": "TUM",
+     "render_norm": 3.3264061016780033e-07,
+     "render_tum": 0.9974126219749451,
+     "render_top": "TUM"
+    },
+    {
+     "step": 3,
+     "margin": -4.1049346923828125,
+     "out": 3642,
+     "in_": 31425,
+     "amount": 3.628242015838623,
+     "token_norm": 0.01622355543076992,
+     "token_tum": 0.9836087822914124,
+     "token_top": "TUM",
+     "render_norm": 2.0444578296974214e-07,
+     "render_tum": 0.9985958933830261,
+     "render_top": "TUM"
+    },
+    {
+     "step": 4,
+     "margin": -0.3960533142089844,
+     "out": 22976,
+     "in_": 31425,
+     "amount": 2.9529073238372803,
+     "token_norm": 0.40226101875305176,
+     "token_tum": 0.597626805305481,
+     "token_top": "TUM",
+     "render_norm": 5.840354333486175e-06,
+     "render_tum": 0.9991365075111389,
+     "render_top": "TUM"
+    },
+    {
+     "step": 5,
+     "margin": 2.913865089416504,
+     "out": 34832,
+     "in_": 31425,
+     "amount": 2.8639447689056396,
+     "token_norm": 0.9485276937484741,
+     "token_tum": 0.051456354558467865,
+     "token_top": "NORM",
+     "render_norm": 0.0055160364136099815,
+     "render_tum": 0.9943572878837585,
+     "render_top": "TUM"
+    },
+    {
+     "step": 6,
+     "margin": 5.750596046447754,
+     "out": 9722,
+     "in_": 31425,
+     "amount": 2.8741137981414795,
+     "token_norm": 0.9968292117118835,
+     "token_tum": 0.0031693773344159126,
+     "token_top": "NORM",
+     "render_norm": 0.013274353928864002,
+     "render_tum": 0.9866788983345032,
+     "render_top": "TUM"
+    },
+    {
+     "step": 7,
+     "margin": 7.655845642089844,
+     "out": 40260,
+     "in_": 31425,
+     "amount": 1.805720567703247,
+     "token_norm": 0.9995269775390625,
+     "token_tum": 0.00047259312123060226,
+     "token_top": "NORM",
+     "render_norm": 0.08663678169250488,
+     "render_tum": 0.9132447838783264,
+     "render_top": "TUM"
+    },
+    {
+     "step": 8,
+     "margin": 10.184602737426758,
+     "out": 22359,
+     "in_": 38309,
+     "amount": 2.848471164703369,
+     "token_norm": 0.999962329864502,
+     "token_tum": 3.7667472497560084e-05,
+     "token_top": "NORM",
+     "render_norm": 0.37542641162872314,
+     "render_tum": 0.6244093775749207,
+     "render_top": "TUM"
+    },
+    {
+     "step": 9,
+     "margin": 17.859432220458984,
+     "out": 44090,
+     "in_": 38309,
+     "amount": 14.7468900680542,
+     "token_norm": 1.0,
+     "token_tum": 1.729664766969563e-08,
+     "token_top": "NORM",
+     "render_norm": 0.9996387958526611,
+     "render_tum": 0.00034944049548357725,
+     "render_top": "NORM"
+    }
+   ]
+  },
+  {
+   "key": "F4-6704_r85",
+   "slide": "TCGA-F4-6704-01Z-00-DX1.f7cb6641-a6f3-40b7-a5cb-aaf604f73d0f.svs",
+   "row": 85,
+   "manifest_index": 892108,
+   "num_exchanges": 12,
+   "steps": [
+    {
+     "step": 0,
+     "margin": -15.00469970703125,
+     "token_norm": 3.0446778964687837e-07,
+     "token_tum": 0.9996769428253174,
+     "token_top": "TUM",
+     "render_norm": 3.6945908732377575e-07,
+     "render_tum": 0.9997978806495667,
+     "render_top": "TUM"
+    },
+    {
+     "step": 1,
+     "margin": -11.987832069396973,
+     "out": 1899,
+     "in_": 31425,
+     "amount": 2.859522819519043,
+     "token_norm": 6.219393071660306e-06,
+     "token_tum": 0.9995667338371277,
+     "token_top": "TUM",
+     "render_norm": 5.863822707397048e-07,
+     "render_tum": 0.9998100399971008,
+     "render_top": "TUM"
+    },
+    {
+     "step": 2,
+     "margin": -8.35166072845459,
+     "out": 29750,
+     "in_": 31425,
+     "amount": 3.414194107055664,
+     "token_norm": 0.0002359486388741061,
+     "token_tum": 0.9987657070159912,
+     "token_top": "TUM",
+     "render_norm": 6.502434644062305e-06,
+     "render_tum": 0.9936115145683289,
+     "render_top": "TUM"
+    },
+    {
+     "step": 3,
+     "margin": -6.076956748962402,
+     "out": 39370,
+     "in_": 31425,
+     "amount": 1.978582501411438,
+     "token_norm": 0.002289895433932543,
+     "token_tum": 0.9968104958534241,
+     "token_top": "TUM",
+     "render_norm": 6.241687970032217e-06,
+     "render_tum": 0.9923008680343628,
+     "render_top": "TUM"
+    },
+    {
+     "step": 4,
+     "margin": -3.6787989139556885,
+     "out": 25526,
+     "in_": 31425,
+     "amount": 2.1302435398101807,
+     "token_norm": 0.02463126741349697,
+     "token_tum": 0.974075198173523,
+     "token_top": "TUM",
+     "render_norm": 3.5960365494247526e-06,
+     "render_tum": 0.9889376163482666,
+     "render_top": "TUM"
+    },
+    {
+     "step": 5,
+     "margin": -0.38785696029663086,
+     "out": 11179,
+     "in_": 31425,
+     "amount": 3.1586835384368896,
+     "token_norm": 0.40423327684402466,
+     "token_tum": 0.5949317812919617,
+     "token_top": "TUM",
+     "render_norm": 1.4108037248661276e-05,
+     "render_tum": 0.9987897276878357,
+     "render_top": "TUM"
+    },
+    {
+     "step": 6,
+     "margin": 2.0684070587158203,
+     "out": 47270,
+     "in_": 31425,
+     "amount": 2.2123794555664062,
+     "token_norm": 0.8877943158149719,
+     "token_tum": 0.11196564882993698,
+     "token_top": "NORM",
+     "render_norm": 0.0007488390547223389,
+     "render_tum": 0.9221842885017395,
+     "render_top": "TUM"
+    },
+    {
+     "step": 7,
+     "margin": 5.7854228019714355,
+     "out": 5496,
+     "in_": 31425,
+     "amount": 3.9596524238586426,
+     "token_norm": 0.9969373941421509,
+     "token_tum": 0.0030514674726873636,
+     "token_top": "NORM",
+     "render_norm": 0.01847241073846817,
+     "render_tum": 0.9806941747665405,
+     "render_top": "TUM"
+    },
+    {
+     "step": 8,
+     "margin": 8.295269012451172,
+     "out": 12918,
+     "in_": 31425,
+     "amount": 2.615267753601074,
+     "token_norm": 0.9997504353523254,
+     "token_tum": 0.00024738485808484256,
+     "token_top": "NORM",
+     "render_norm": 0.1874387264251709,
+     "render_tum": 0.8120068907737732,
+     "render_top": "TUM"
+    },
+    {
+     "step": 9,
+     "margin": 10.050381660461426,
+     "out": 32223,
+     "in_": 38309,
+     "amount": 1.7596410512924194,
+     "token_norm": 0.9999568462371826,
+     "token_tum": 4.2505129385972396e-05,
+     "token_top": "NORM",
+     "render_norm": 0.6696494221687317,
+     "render_tum": 0.3301454484462738,
+     "render_top": "NORM"
+    },
+    {
+     "step": 10,
+     "margin": 12.674713134765625,
+     "out": 10530,
+     "in_": 38309,
+     "amount": 3.318427562713623,
+     "token_norm": 0.9999967813491821,
+     "token_tum": 3.04150307783857e-06,
+     "token_top": "NORM",
+     "render_norm": 0.9993725419044495,
+     "render_tum": 0.0006230817525647581,
+     "render_top": "NORM"
+    },
+    {
+     "step": 11,
+     "margin": 14.114048957824707,
+     "out": 44429,
+     "in_": 40317,
+     "amount": 1.6401610374450684,
+     "token_norm": 0.9999992847442627,
+     "token_tum": 7.059173867673962e-07,
+     "token_top": "NORM",
+     "render_norm": 0.9991599321365356,
+     "render_tum": 0.0008046914008446038,
+     "render_top": "NORM"
+    },
+    {
+     "step": 12,
+     "margin": 19.279399871826172,
+     "out": 44090,
+     "in_": 40317,
+     "amount": 11.311789512634277,
+     "token_norm": 1.0,
+     "token_tum": 3.7982359479826755e-09,
+     "token_top": "NORM",
+     "render_norm": 0.9999686479568481,
+     "render_tum": 3.0168241210049018e-05,
+     "render_top": "NORM"
+    }
+   ]
+  },
+  {
+   "key": "CK-5913_r93",
+   "slide": "TCGA-CK-5913-01Z-00-DX1.64d267c5-895f-4274-9d98-bfd2d338aee2.svs",
+   "row": 93,
+   "manifest_index": 889175,
+   "num_exchanges": 14,
+   "steps": [
+    {
+     "step": 0,
+     "margin": -23.43304443359375,
+     "token_norm": 6.655154205503777e-11,
+     "token_tum": 1.0,
+     "token_top": "TUM",
+     "render_norm": 1.277815006583971e-11,
+     "render_tum": 1.0,
+     "render_top": "TUM"
+    },
+    {
+     "step": 1,
+     "margin": -17.798629760742188,
+     "out": 26959,
+     "in_": 31425,
+     "amount": 4.623958587646484,
+     "token_norm": 1.8627444475782795e-08,
+     "token_tum": 0.9999998807907104,
+     "token_top": "TUM",
+     "render_norm": 1.0767062241789915e-10,
+     "render_tum": 1.0,
+     "render_top": "TUM"
+    },
+    {
+     "step": 2,
+     "margin": -14.884462356567383,
+     "out": 25082,
+     "in_": 31425,
+     "amount": 2.459089756011963,
+     "token_norm": 3.4336812859692145e-07,
+     "token_tum": 0.9999996423721313,
+     "token_top": "TUM",
+     "render_norm": 3.8261699364383617e-10,
+     "render_tum": 1.0,
+     "render_top": "TUM"
+    },
+    {
+     "step": 3,
+     "margin": -11.66996955871582,
+     "out": 29750,
+     "in_": 31425,
+     "amount": 2.6417813301086426,
+     "token_norm": 8.546588105673436e-06,
+     "token_tum": 0.9999911785125732,
+     "token_top": "TUM",
+     "render_norm": 3.429161949952686e-07,
+     "render_tum": 0.9999985694885254,
+     "render_top": "TUM"
+    },
+    {
+     "step": 4,
+     "margin": -8.878582954406738,
+     "out": 12846,
+     "in_": 31425,
+     "amount": 2.344093084335327,
+     "token_norm": 0.0001393221173202619,
+     "token_tum": 0.9998601675033569,
+     "token_top": "TUM",
+     "render_norm": 3.650422968348721e-07,
+     "render_tum": 0.9999990463256836,
+     "render_top": "TUM"
+    },
+    {
+     "step": 5,
+     "margin": -5.76258659362793,
+     "out": 47245,
+     "in_": 31425,
+     "amount": 2.7154910564422607,
+     "token_norm": 0.003133125137537718,
+     "token_tum": 0.9968653321266174,
+     "token_top": "TUM",
+     "render_norm": 1.2015436368528754e-05,
+     "render_tum": 0.9999796152114868,
+     "render_top": "TUM"
+    },
+    {
+     "step": 6,
+     "margin": -2.5706653594970703,
+     "out": 6125,
+     "in_": 31425,
+     "amount": 2.8780338764190674,
+     "token_norm": 0.07105035334825516,
+     "token_tum": 0.928945779800415,
+     "token_top": "TUM",
+     "render_norm": 0.00010932894656434655,
+     "render_tum": 0.9998852014541626,
+     "render_top": "TUM"
+    },
+    {
+     "step": 7,
+     "margin": 0.07747364044189453,
+     "out": 13712,
+     "in_": 31425,
+     "amount": 2.3122475147247314,
+     "token_norm": 0.5193588137626648,
+     "token_tum": 0.48063626885414124,
+     "token_top": "NORM",
+     "render_norm": 0.009013528004288673,
+     "render_tum": 0.9909451007843018,
+     "render_top": "TUM"
+    },
+    {
+     "step": 8,
+     "margin": 2.260972023010254,
+     "out": 152,
+     "in_": 31425,
+     "amount": 1.8946198225021362,
+     "token_norm": 0.9055928587913513,
+     "token_tum": 0.09440436214208603,
+     "token_top": "NORM",
+     "render_norm": 0.01368268858641386,
+     "render_tum": 0.9862529635429382,
+     "render_top": "TUM"
+    },
+    {
+     "step": 9,
+     "margin": 4.25117301940918,
+     "out": 19017,
+     "in_": 31425,
+     "amount": 1.7261971235275269,
+     "token_norm": 0.9859527349472046,
+     "token_tum": 0.014046396128833294,
+     "token_top": "NORM",
+     "render_norm": 0.04180535674095154,
+     "render_tum": 0.9581263661384583,
+     "render_top": "TUM"
+    },
+    {
+     "step": 10,
+     "margin": 6.936290740966797,
+     "out": 45162,
+     "in_": 38309,
+     "amount": 2.679180145263672,
+     "token_norm": 0.9990290403366089,
+     "token_tum": 0.0009706983109936118,
+     "token_top": "NORM",
+     "render_norm": 0.18596413731575012,
+     "render_tum": 0.8139786720275879,
+     "render_top": "TUM"
+    },
+    {
+     "step": 11,
+     "margin": 9.22905158996582,
+     "out": 22686,
+     "in_": 38309,
+     "amount": 2.391309976577759,
+     "token_norm": 0.9999018907546997,
+     "token_tum": 9.807826427277178e-05,
+     "token_top": "NORM",
+     "render_norm": 0.6963459253311157,
+     "render_tum": 0.3032444417476654,
+     "render_top": "NORM"
+    },
+    {
+     "step": 12,
+     "margin": 11.273446083068848,
+     "out": 40824,
+     "in_": 38309,
+     "amount": 2.172088623046875,
+     "token_norm": 0.9999873638153076,
+     "token_tum": 1.2685277397395112e-05,
+     "token_top": "NORM",
+     "render_norm": 0.9999567270278931,
+     "render_tum": 4.02021141781006e-05,
+     "render_top": "NORM"
+    },
+    {
+     "step": 13,
+     "margin": 12.953432083129883,
+     "out": 7068,
+     "in_": 38309,
+     "amount": 1.7894037961959839,
+     "token_norm": 0.999997615814209,
+     "token_tum": 2.3595507627760526e-06,
+     "token_top": "NORM",
+     "render_norm": 0.9999922513961792,
+     "render_tum": 7.658783033548389e-06,
+     "render_top": "NORM"
+    },
+    {
+     "step": 14,
+     "margin": 14.830906867980957,
+     "out": 30349,
+     "in_": 38309,
+     "amount": 2.4171414375305176,
+     "token_norm": 0.9999996423721313,
+     "token_tum": 3.597938587063254e-07,
+     "token_top": "NORM",
+     "render_norm": 0.9999990463256836,
+     "render_tum": 9.116380397244939e-07,
+     "render_top": "NORM"
+    }
+   ]
+  }
+ ],
+ "concepts": {
+  "152": {
+   "candidate": false,
+   "nct_active_total": 526,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00024608317611352635,
+    "MUC": 0.0006041687644748766,
+    "ADI": 0.0,
+    "STR": 0.0012883040397533819,
+    "MUS": 7.078142695356739e-05,
+    "NORM": 0.00021043771043771043,
+    "DEB": 0.000843810648890389,
+    "TUM": 0.031511254019292605
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "152_0.jpg",
+    "152_1.jpg",
+    "152_2.jpg",
+    "152_3.jpg",
+    "152_4.jpg",
+    "152_5.jpg"
+   ]
+  },
+  "1899": {
+   "candidate": false,
+   "nct_active_total": 339,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00032811090148470183,
+    "MUC": 0.0002013895881582922,
+    "ADI": 0.0020434227330779057,
+    "STR": 0.000828195454127174,
+    "MUS": 0.0,
+    "NORM": 0.0003156565656565657,
+    "DEB": 0.001687621297780778,
+    "TUM": 0.017813504823151124
+   },
+   "top_classes": [
+    "TUM",
+    "DEB",
+    "TUM",
+    "DEB",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "1899_0.jpg",
+    "1899_1.jpg",
+    "1899_2.jpg",
+    "1899_3.jpg",
+    "1899_4.jpg",
+    "1899_5.jpg"
+   ]
+  },
+  "3642": {
+   "candidate": false,
+   "nct_active_total": 2639,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00024608317611352635,
+    "MUC": 0.0001006947940791461,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.0005260942760942761,
+    "DEB": 0.0002531431946671167,
+    "TUM": 0.16893890675241158
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "3642_0.jpg",
+    "3642_1.jpg",
+    "3642_2.jpg",
+    "3642_3.jpg",
+    "3642_4.jpg",
+    "3642_5.jpg"
+   ]
+  },
+  "5496": {
+   "candidate": false,
+   "nct_active_total": 38,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00024608317611352635,
+    "MUC": 0.0002013895881582922,
+    "ADI": 0.0,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.0,
+    "NORM": 0.0007365319865319865,
+    "DEB": 0.0003375242595561556,
+    "TUM": 0.0013504823151125403
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "NORM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "5496_0.jpg",
+    "5496_1.jpg",
+    "5496_2.jpg",
+    "5496_3.jpg",
+    "5496_4.jpg",
+    "5496_5.jpg"
+   ]
+  },
+  "6125": {
+   "candidate": false,
+   "nct_active_total": 147,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00032811090148470183,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0025766080795067638,
+    "MUS": 0.0011325028312570782,
+    "NORM": 0.00042087542087542086,
+    "DEB": 0.0001687621297780778,
+    "TUM": 0.005980707395498392
+   },
+   "top_classes": [
+    "STR",
+    "STR",
+    "TUM",
+    "TUM",
+    "TUM",
+    "STR"
+   ],
+   "tiles": [
+    "6125_0.jpg",
+    "6125_1.jpg",
+    "6125_2.jpg",
+    "6125_3.jpg",
+    "6125_4.jpg",
+    "6125_5.jpg"
+   ]
+  },
+  "7068": {
+   "candidate": false,
+   "nct_active_total": 397,
+   "dominant_class": "STR",
+   "active_fraction_by_class": {
+    "LYM": 0.00041013862685587726,
+    "MUC": 0.0004027791763165844,
+    "ADI": 0.0002554278416347382,
+    "STR": 0.02475384190668998,
+    "MUS": 0.00021234428086070215,
+    "NORM": 0.00021043771043771043,
+    "DEB": 0.0009281917137794279,
+    "TUM": 0.006430868167202572
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "7068_0.jpg",
+    "7068_1.jpg",
+    "7068_2.jpg",
+    "7068_3.jpg",
+    "7068_4.jpg",
+    "7068_5.jpg"
+   ]
+  },
+  "8275": {
+   "candidate": false,
+   "nct_active_total": 342,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00032811090148470183,
+    "MUC": 0.0019132010875037762,
+    "ADI": 8.514261387824607e-05,
+    "STR": 0.0011042606055028986,
+    "MUS": 0.002335787089467724,
+    "NORM": 0.0012626262626262627,
+    "DEB": 0.0021939076871150113,
+    "TUM": 0.015112540192926046
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "8275_0.jpg",
+    "8275_1.jpg",
+    "8275_2.jpg",
+    "8275_3.jpg",
+    "8275_4.jpg",
+    "8275_5.jpg"
+   ]
+  },
+  "9722": {
+   "candidate": false,
+   "nct_active_total": 113,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.00021043771043771043,
+    "DEB": 0.0,
+    "TUM": 0.007138263665594855
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "9722_0.jpg",
+    "9722_1.jpg",
+    "9722_2.jpg",
+    "9722_3.jpg",
+    "9722_4.jpg",
+    "9722_5.jpg"
+   ]
+  },
+  "10530": {
+   "candidate": false,
+   "nct_active_total": 7,
+   "dominant_class": "MUS",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0001006947940791461,
+    "ADI": 0.0,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.00021234428086070215,
+    "NORM": 0.0,
+    "DEB": 0.0,
+    "TUM": 0.00012861736334405144
+   },
+   "top_classes": [
+    "STR",
+    "TUM",
+    "TUM",
+    "MUS",
+    "MUS",
+    "MUC"
+   ],
+   "tiles": [
+    "10530_0.jpg",
+    "10530_1.jpg",
+    "10530_2.jpg",
+    "10530_3.jpg",
+    "10530_4.jpg",
+    "10530_5.jpg"
+   ]
+  },
+  "11179": {
+   "candidate": false,
+   "nct_active_total": 22,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.00010521885521885521,
+    "DEB": 0.0,
+    "TUM": 0.0013504823151125403
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "11179_0.jpg",
+    "11179_1.jpg",
+    "11179_2.jpg",
+    "11179_3.jpg",
+    "11179_4.jpg",
+    "11179_5.jpg"
+   ]
+  },
+  "11791": {
+   "candidate": false,
+   "nct_active_total": 1368,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00016405545074235091,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0005906674542232723,
+    "TUM": 0.08733118971061093
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "11791_0.jpg",
+    "11791_1.jpg",
+    "11791_2.jpg",
+    "11791_3.jpg",
+    "11791_4.jpg",
+    "11791_5.jpg"
+   ]
+  },
+  "12846": {
+   "candidate": false,
+   "nct_active_total": 1173,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 8.202772537117546e-05,
+    "MUC": 0.0001006947940791461,
+    "ADI": 0.0,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.00014156285390713478,
+    "NORM": 0.013362794612794613,
+    "DEB": 0.0002531431946671167,
+    "TUM": 0.06668810289389067
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "12846_0.jpg",
+    "12846_1.jpg",
+    "12846_2.jpg",
+    "12846_3.jpg",
+    "12846_4.jpg",
+    "12846_5.jpg"
+   ]
+  },
+  "12918": {
+   "candidate": false,
+   "nct_active_total": 392,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 7.078142695356739e-05,
+    "NORM": 0.00021043771043771043,
+    "DEB": 0.0007594295840013502,
+    "TUM": 0.024437299035369776
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "12918_0.jpg",
+    "12918_1.jpg",
+    "12918_2.jpg",
+    "12918_3.jpg",
+    "12918_4.jpg",
+    "12918_5.jpg"
+   ]
+  },
+  "13712": {
+   "candidate": true,
+   "nct_active_total": 2113,
+   "dominant_class": "NORM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0007048635585540227,
+    "ADI": 0.0,
+    "STR": 0.00018404343425048312,
+    "MUS": 7.078142695356739e-05,
+    "NORM": 0.11416245791245791,
+    "DEB": 0.0001687621297780778,
+    "TUM": 0.06533762057877814
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "13712_0.jpg",
+    "13712_1.jpg",
+    "13712_2.jpg",
+    "13712_3.jpg",
+    "13712_4.jpg",
+    "13712_5.jpg"
+   ]
+  },
+  "13726": {
+   "candidate": false,
+   "nct_active_total": 459,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00016405545074235091,
+    "MUC": 0.004229181351324137,
+    "ADI": 0.0,
+    "STR": 0.000828195454127174,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0001687621297780778,
+    "TUM": 0.025980707395498393
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "13726_0.jpg",
+    "13726_1.jpg",
+    "13726_2.jpg",
+    "13726_3.jpg",
+    "13726_4.jpg",
+    "13726_5.jpg"
+   ]
+  },
+  "14499": {
+   "candidate": false,
+   "nct_active_total": 1718,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0019686654089082108,
+    "MUC": 0.001006947940791461,
+    "ADI": 0.0,
+    "STR": 0.0027606515137572466,
+    "MUS": 0.005379388448471121,
+    "NORM": 0.0003156565656565657,
+    "DEB": 0.0037971479200067503,
+    "TUM": 0.09839228295819935
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "DEB",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "14499_0.jpg",
+    "14499_1.jpg",
+    "14499_2.jpg",
+    "14499_3.jpg",
+    "14499_4.jpg",
+    "14499_5.jpg"
+   ]
+  },
+  "19017": {
+   "candidate": false,
+   "nct_active_total": 516,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0002013895881582922,
+    "ADI": 0.0,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.0,
+    "NORM": 0.002840909090909091,
+    "DEB": 0.000843810648890389,
+    "TUM": 0.03054662379421222
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "19017_0.jpg",
+    "19017_1.jpg",
+    "19017_2.jpg",
+    "19017_3.jpg",
+    "19017_4.jpg",
+    "19017_5.jpg"
+   ]
+  },
+  "22359": {
+   "candidate": false,
+   "nct_active_total": 26,
+   "dominant_class": "MUC",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.000906253146712315,
+    "ADI": 0.0005108556832694764,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.00014156285390713478,
+    "NORM": 0.0003156565656565657,
+    "DEB": 0.0,
+    "TUM": 0.0002572347266881029
+   },
+   "top_classes": [
+    "TUM",
+    "MUC",
+    "TUM",
+    "ADI",
+    "MUC",
+    "NORM"
+   ],
+   "tiles": [
+    "22359_0.jpg",
+    "22359_1.jpg",
+    "22359_2.jpg",
+    "22359_3.jpg",
+    "22359_4.jpg",
+    "22359_5.jpg"
+   ]
+  },
+  "22686": {
+   "candidate": false,
+   "nct_active_total": 176,
+   "dominant_class": "MUC",
+   "active_fraction_by_class": {
+    "LYM": 0.00090230497908293,
+    "MUC": 0.007552109555935958,
+    "ADI": 0.0,
+    "STR": 0.00027606515137572465,
+    "MUS": 0.00021234428086070215,
+    "NORM": 0.0021043771043771043,
+    "DEB": 0.0014344781031136614,
+    "TUM": 0.003022508038585209
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "MUC",
+    "TUM",
+    "MUC",
+    "TUM"
+   ],
+   "tiles": [
+    "22686_0.jpg",
+    "22686_1.jpg",
+    "22686_2.jpg",
+    "22686_3.jpg",
+    "22686_4.jpg",
+    "22686_5.jpg"
+   ]
+  },
+  "22976": {
+   "candidate": false,
+   "nct_active_total": 2500,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0001006947940791461,
+    "ADI": 0.0018731375053214134,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.00021043771043771043,
+    "DEB": 0.0005906674542232723,
+    "TUM": 0.15871382636655948
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "22976_0.jpg",
+    "22976_1.jpg",
+    "22976_2.jpg",
+    "22976_3.jpg",
+    "22976_4.jpg",
+    "22976_5.jpg"
+   ]
+  },
+  "25082": {
+   "candidate": false,
+   "nct_active_total": 563,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0,
+    "TUM": 0.03620578778135048
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "25082_0.jpg",
+    "25082_1.jpg",
+    "25082_2.jpg",
+    "25082_3.jpg",
+    "25082_4.jpg",
+    "25082_5.jpg"
+   ]
+  },
+  "25526": {
+   "candidate": false,
+   "nct_active_total": 63,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0,
+    "TUM": 0.003987138263665595
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "25526_0.jpg",
+    "25526_1.jpg",
+    "25526_2.jpg",
+    "25526_3.jpg",
+    "25526_4.jpg",
+    "25526_5.jpg"
+   ]
+  },
+  "26959": {
+   "candidate": false,
+   "nct_active_total": 2413,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00016405545074235091,
+    "MUC": 0.0001006947940791461,
+    "ADI": 8.514261387824607e-05,
+    "STR": 0.00018404343425048312,
+    "MUS": 7.078142695356739e-05,
+    "NORM": 0.0015782828282828283,
+    "DEB": 0.000843810648890389,
+    "TUM": 0.15311897106109323
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "26959_0.jpg",
+    "26959_1.jpg",
+    "26959_2.jpg",
+    "26959_3.jpg",
+    "26959_4.jpg",
+    "26959_5.jpg"
+   ]
+  },
+  "28285": {
+   "candidate": false,
+   "nct_active_total": 2860,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.00021234428086070215,
+    "NORM": 0.00010521885521885521,
+    "DEB": 0.0010125727786684667,
+    "TUM": 0.1827652733118971
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "28285_0.jpg",
+    "28285_1.jpg",
+    "28285_2.jpg",
+    "28285_3.jpg",
+    "28285_4.jpg",
+    "28285_5.jpg"
+   ]
+  },
+  "29750": {
+   "candidate": false,
+   "nct_active_total": 3444,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 8.514261387824607e-05,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.00726010101010101,
+    "DEB": 0.0005906674542232723,
+    "TUM": 0.2165273311897106
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "29750_0.jpg",
+    "29750_1.jpg",
+    "29750_2.jpg",
+    "29750_3.jpg",
+    "29750_4.jpg",
+    "29750_5.jpg"
+   ]
+  },
+  "30349": {
+   "candidate": false,
+   "nct_active_total": 137,
+   "dominant_class": "STR",
+   "active_fraction_by_class": {
+    "LYM": 0.0004921663522270527,
+    "MUC": 0.0017118114993454837,
+    "ADI": 0.0,
+    "STR": 0.006625563633017392,
+    "MUS": 0.0,
+    "NORM": 0.0005260942760942761,
+    "DEB": 0.0003375242595561556,
+    "TUM": 0.002122186495176849
+   },
+   "top_classes": [
+    "STR",
+    "STR",
+    "STR",
+    "STR",
+    "STR",
+    "STR"
+   ],
+   "tiles": [
+    "30349_0.jpg",
+    "30349_1.jpg",
+    "30349_2.jpg",
+    "30349_3.jpg",
+    "30349_4.jpg",
+    "30349_5.jpg"
+   ]
+  },
+  "31425": {
+   "candidate": true,
+   "nct_active_total": 8717,
+   "dominant_class": "NORM",
+   "active_fraction_by_class": {
+    "LYM": 0.0004921663522270527,
+    "MUC": 0.03413553519283053,
+    "ADI": 0.03652618135376756,
+    "STR": 0.0,
+    "MUS": 0.0004246885617214043,
+    "NORM": 0.7821969696969697,
+    "DEB": 0.0,
+    "TUM": 0.03234726688102894
+   },
+   "top_classes": [
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM"
+   ],
+   "tiles": [
+    "31425_0.jpg",
+    "31425_1.jpg",
+    "31425_2.jpg",
+    "31425_3.jpg",
+    "31425_4.jpg",
+    "31425_5.jpg"
+   ]
+  },
+  "32223": {
+   "candidate": false,
+   "nct_active_total": 7,
+   "dominant_class": "ADI",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0005108556832694764,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 8.43810648890389e-05,
+    "TUM": 0.0
+   },
+   "top_classes": [
+    "ADI",
+    "ADI",
+    "ADI",
+    "ADI",
+    "ADI",
+    "DEB"
+   ],
+   "tiles": [
+    "32223_0.jpg",
+    "32223_1.jpg",
+    "32223_2.jpg",
+    "32223_3.jpg",
+    "32223_4.jpg",
+    "32223_5.jpg"
+   ]
+  },
+  "32901": {
+   "candidate": false,
+   "nct_active_total": 73,
+   "dominant_class": "MUC",
+   "active_fraction_by_class": {
+    "LYM": 8.202772537117546e-05,
+    "MUC": 0.005940992850669621,
+    "ADI": 0.0,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0003375242595561556,
+    "TUM": 0.00045016077170418006
+   },
+   "top_classes": [
+    "MUC",
+    "MUC",
+    "TUM",
+    "MUC",
+    "MUC",
+    "MUC"
+   ],
+   "tiles": [
+    "32901_0.jpg",
+    "32901_1.jpg",
+    "32901_2.jpg",
+    "32901_3.jpg",
+    "32901_4.jpg",
+    "32901_5.jpg"
+   ]
+  },
+  "34832": {
+   "candidate": false,
+   "nct_active_total": 2303,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 8.202772537117546e-05,
+    "MUC": 0.0002013895881582922,
+    "ADI": 0.0037462750106428268,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.0005662514156285391,
+    "NORM": 0.011363636363636364,
+    "DEB": 0.0011813349084465446,
+    "TUM": 0.13665594855305466
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "34832_0.jpg",
+    "34832_1.jpg",
+    "34832_2.jpg",
+    "34832_3.jpg",
+    "34832_4.jpg",
+    "34832_5.jpg"
+   ]
+  },
+  "38309": {
+   "candidate": true,
+   "nct_active_total": 588,
+   "dominant_class": "NORM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0002013895881582922,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.057133838383838384,
+    "DEB": 0.0,
+    "TUM": 0.002765273311897106
+   },
+   "top_classes": [
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM"
+   ],
+   "tiles": [
+    "38309_0.jpg",
+    "38309_1.jpg",
+    "38309_2.jpg",
+    "38309_3.jpg",
+    "38309_4.jpg",
+    "38309_5.jpg"
+   ]
+  },
+  "38611": {
+   "candidate": false,
+   "nct_active_total": 38,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0008202772537117545,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0001687621297780778,
+    "TUM": 0.001607717041800643
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "38611_0.jpg",
+    "38611_1.jpg",
+    "38611_2.jpg",
+    "38611_3.jpg",
+    "38611_4.jpg",
+    "38611_5.jpg"
+   ]
+  },
+  "38753": {
+   "candidate": false,
+   "nct_active_total": 4309,
+   "dominant_class": "STR",
+   "active_fraction_by_class": {
+    "LYM": 0.03551800508571897,
+    "MUC": 0.035746651898096865,
+    "ADI": 8.514261387824607e-05,
+    "STR": 0.12616177417870617,
+    "MUS": 0.007715175537938845,
+    "NORM": 0.013257575757575758,
+    "DEB": 0.09121593114505105,
+    "TUM": 0.05356913183279743
+   },
+   "top_classes": [
+    "STR",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "38753_0.jpg",
+    "38753_1.jpg",
+    "38753_2.jpg",
+    "38753_3.jpg",
+    "38753_4.jpg",
+    "38753_5.jpg"
+   ]
+  },
+  "38996": {
+   "candidate": false,
+   "nct_active_total": 412,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.009433188417685178,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.00046010858562620777,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 8.43810648890389e-05,
+    "TUM": 0.018713826366559487
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "38996_0.jpg",
+    "38996_1.jpg",
+    "38996_2.jpg",
+    "38996_3.jpg",
+    "38996_4.jpg",
+    "38996_5.jpg"
+   ]
+  },
+  "39370": {
+   "candidate": false,
+   "nct_active_total": 70,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0,
+    "TUM": 0.0045016077170418
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "39370_0.jpg",
+    "39370_1.jpg",
+    "39370_2.jpg",
+    "39370_3.jpg",
+    "39370_4.jpg",
+    "39370_5.jpg"
+   ]
+  },
+  "40260": {
+   "candidate": true,
+   "nct_active_total": 3136,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 8.202772537117546e-05,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.026199494949494948,
+    "DEB": 0.0005062863893342334,
+    "TUM": 0.18520900321543407
+   },
+   "top_classes": [
+    "TUM",
+    "NORM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "NORM"
+   ],
+   "tiles": [
+    "40260_0.jpg",
+    "40260_1.jpg",
+    "40260_2.jpg",
+    "40260_3.jpg",
+    "40260_4.jpg",
+    "40260_5.jpg"
+   ]
+  },
+  "40317": {
+   "candidate": true,
+   "nct_active_total": 3285,
+   "dominant_class": "NORM",
+   "active_fraction_by_class": {
+    "LYM": 0.0015585267820523337,
+    "MUC": 0.0,
+    "ADI": 8.514261387824607e-05,
+    "STR": 0.0,
+    "MUS": 7.078142695356739e-05,
+    "NORM": 0.3399621212121212,
+    "DEB": 0.0,
+    "TUM": 0.002122186495176849
+   },
+   "top_classes": [
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM",
+    "NORM"
+   ],
+   "tiles": [
+    "40317_0.jpg",
+    "40317_1.jpg",
+    "40317_2.jpg",
+    "40317_3.jpg",
+    "40317_4.jpg",
+    "40317_5.jpg"
+   ]
+  },
+  "40824": {
+   "candidate": false,
+   "nct_active_total": 2483,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0004027791763165844,
+    "ADI": 0.0004257130693912303,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.0003539071347678369,
+    "NORM": 0.008312289562289563,
+    "DEB": 0.0005906674542232723,
+    "TUM": 0.15311897106109323
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "40824_0.jpg",
+    "40824_1.jpg",
+    "40824_2.jpg",
+    "40824_3.jpg",
+    "40824_4.jpg",
+    "40824_5.jpg"
+   ]
+  },
+  "42793": {
+   "candidate": false,
+   "nct_active_total": 1289,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.007628578459519317,
+    "MUC": 0.000906253146712315,
+    "ADI": 0.00034057045551298427,
+    "STR": 0.0011042606055028986,
+    "MUS": 0.0,
+    "NORM": 0.017676767676767676,
+    "DEB": 0.007509914775124462,
+    "TUM": 0.05877813504823151
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "42793_0.jpg",
+    "42793_1.jpg",
+    "42793_2.jpg",
+    "42793_3.jpg",
+    "42793_4.jpg",
+    "42793_5.jpg"
+   ]
+  },
+  "43076": {
+   "candidate": false,
+   "nct_active_total": 322,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0006562218029694037,
+    "MUC": 0.0001006947940791461,
+    "ADI": 0.00034057045551298427,
+    "STR": 0.0005521303027514493,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0004219053244451945,
+    "TUM": 0.019163987138263665
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "43076_0.jpg",
+    "43076_1.jpg",
+    "43076_2.jpg",
+    "43076_3.jpg",
+    "43076_4.jpg",
+    "43076_5.jpg"
+   ]
+  },
+  "44090": {
+   "candidate": true,
+   "nct_active_total": 86707,
+   "dominant_class": "MUC",
+   "active_fraction_by_class": {
+    "LYM": 0.7544089902387007,
+    "MUC": 0.9921458060618266,
+    "ADI": 0.988931460195828,
+    "STR": 0.857918468758627,
+    "MUS": 0.9558323895809739,
+    "NORM": 0.8801557239057239,
+    "DEB": 0.8789975529491182,
+    "TUM": 0.9281672025723473
+   },
+   "top_classes": [
+    "ADI",
+    "ADI",
+    "NORM",
+    "ADI",
+    "TUM",
+    "ADI"
+   ],
+   "tiles": [
+    "44090_0.jpg",
+    "44090_1.jpg",
+    "44090_2.jpg",
+    "44090_3.jpg",
+    "44090_4.jpg",
+    "44090_5.jpg"
+   ]
+  },
+  "44429": {
+   "candidate": false,
+   "nct_active_total": 2726,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.00024608317611352635,
+    "MUC": 0.0,
+    "ADI": 0.0005959982971477225,
+    "STR": 0.00036808686850096624,
+    "MUS": 7.078142695356739e-05,
+    "NORM": 0.003998316498316498,
+    "DEB": 0.021854695806261076,
+    "TUM": 0.1552411575562701
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "DEB",
+    "TUM",
+    "DEB",
+    "TUM"
+   ],
+   "tiles": [
+    "44429_0.jpg",
+    "44429_1.jpg",
+    "44429_2.jpg",
+    "44429_3.jpg",
+    "44429_4.jpg",
+    "44429_5.jpg"
+   ]
+  },
+  "45161": {
+   "candidate": false,
+   "nct_active_total": 1606,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0005034739703957305,
+    "ADI": 0.0,
+    "STR": 9.202171712524156e-05,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.0012657159733355835,
+    "TUM": 0.10192926045016078
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "45161_0.jpg",
+    "45161_1.jpg",
+    "45161_2.jpg",
+    "45161_3.jpg",
+    "45161_4.jpg",
+    "45161_5.jpg"
+   ]
+  },
+  "45162": {
+   "candidate": false,
+   "nct_active_total": 418,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 8.202772537117546e-05,
+    "MUC": 0.0,
+    "ADI": 0.0,
+    "STR": 0.0,
+    "MUS": 0.0,
+    "NORM": 0.0,
+    "DEB": 0.000843810648890389,
+    "TUM": 0.02617363344051447
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "45162_0.jpg",
+    "45162_1.jpg",
+    "45162_2.jpg",
+    "45162_3.jpg",
+    "45162_4.jpg",
+    "45162_5.jpg"
+   ]
+  },
+  "46852": {
+   "candidate": true,
+   "nct_active_total": 2611,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0013124436059388073,
+    "MUC": 0.0064444668210653505,
+    "ADI": 8.514261387824607e-05,
+    "STR": 0.006441520198766909,
+    "MUS": 0.006370328425821065,
+    "NORM": 0.05176767676767677,
+    "DEB": 0.0027845751413382836,
+    "TUM": 0.11864951768488746
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "46852_0.jpg",
+    "46852_1.jpg",
+    "46852_2.jpg",
+    "46852_3.jpg",
+    "46852_4.jpg",
+    "46852_5.jpg"
+   ]
+  },
+  "47245": {
+   "candidate": false,
+   "nct_active_total": 2917,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.004757608071528177,
+    "MUC": 0.04803141677575269,
+    "ADI": 0.00519369944657301,
+    "STR": 0.0529124873470139,
+    "MUS": 0.0009909399773499433,
+    "NORM": 0.011574074074074073,
+    "DEB": 0.011644586954687368,
+    "TUM": 0.09543408360128618
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "47245_0.jpg",
+    "47245_1.jpg",
+    "47245_2.jpg",
+    "47245_3.jpg",
+    "47245_4.jpg",
+    "47245_5.jpg"
+   ]
+  },
+  "47270": {
+   "candidate": false,
+   "nct_active_total": 415,
+   "dominant_class": "TUM",
+   "active_fraction_by_class": {
+    "LYM": 0.0,
+    "MUC": 0.0008055583526331688,
+    "ADI": 0.00017028522775649213,
+    "STR": 0.00018404343425048312,
+    "MUS": 0.0,
+    "NORM": 0.0006313131313131314,
+    "DEB": 0.0,
+    "TUM": 0.025530546623794212
+   },
+   "top_classes": [
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM",
+    "TUM"
+   ],
+   "tiles": [
+    "47270_0.jpg",
+    "47270_1.jpg",
+    "47270_2.jpg",
+    "47270_3.jpg",
+    "47270_4.jpg",
+    "47270_5.jpg"
+   ]
+  }
+ }
+}
