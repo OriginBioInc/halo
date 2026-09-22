@@ -85,7 +85,7 @@ h1 {
   font: 400 clamp(1.95rem, 3.5vw, 3rem)/1.2 var(--serif);
   letter-spacing: -.012em; text-wrap: balance;
 }
-.authors { max-width: var(--measure); margin: 0 auto 4px; font: 400 .85rem/1.5 var(--sans); color: var(--muted); text-align: left; }
+.authors { max-width: var(--measure); margin: 0 auto 4px; font: 400 .85rem/1.5 var(--sans); color: var(--muted); text-align: center; }
 .affil { margin: 0; color: var(--muted); font-size: .8rem; }
 
 /* ---------- cold open ---------- */
